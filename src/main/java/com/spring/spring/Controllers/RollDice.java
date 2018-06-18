@@ -12,11 +12,11 @@ public class RollDice {
         return (int) Math.floor(Math.random() * (max - min + 1) + min);
 
     }
-
-    @GetMapping("/roll-dice")
-    public String rollDice() {
-        return "roll-dice";
-    }
+//
+//    @GetMapping("/roll-dice")
+//    public String rollDice() {
+//        return "roll-dice";
+//    }
 
     @GetMapping("/roll-dice/{guess}")
     public String rollDice(@PathVariable int guess, Model model) {
