@@ -1,0 +1,40 @@
+# This a java with Spring Application
+
+# For the project type, select "Spring Initializr
+
+# "Maven Project" is selected (it should be by default).
+
+# For the "Artifact" and "Name" fields enter a name for your project without spaces
+
+# Enter a brief description of your project in the "Description" field.
+
+# Next we will be prompted for the dependencies of our project.
+
+# Here we will select any dependencies that our project will have.
+
+# This is just a shortcut for adding spring-boot-starter <dependency> elements to our pom.xml.
+
+ # If you know what pieces of the spring framework you are going to use, you would select them here.
+
+
+
+# For now, just check "Web" -> "Web".
+
+# I also chose Lombok
+
+# Add the following line to your .gitignore file
+Add the following line to your .gitignore file
+
+# Create an empty file at src/main/resources/example.properties
+
+ and add it to Git. We'll use this file to communicate to other developers what are the settings needed to run this application, Like this one
+
+ # Create a new repository locally and on github for this project.
+
+ # Add the following to your pom.xml.
+
+
+ <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-thymeleaf</artifactId>
+ </dependency>
